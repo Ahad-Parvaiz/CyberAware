@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberAware: Stay Safe Online</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Welcome Section -->
+    <section class="section-welcome-screen">
+        <div class="welcome-screen">
+            <h1>Stay Safe Online</h1>
+            <div class="tagline">
+                <p>Learn, Protect, and Stay Secure</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#alerts" >Alerts</a></li>
+            <li><a href="#tips" target="-main">Security Tips</a></li>
+            <li><a href="tools.html" target="-main">Tools</a></li>
+            <li><a href="quizzes.html" target="-main">Quizzes</a></li>
+            <li><a href="#contact-us">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Us Section -->
+    <section class="about-us">
+        <h2>🛠️ About Us</h2>
+        <h4>🔒 Who We Are:</h4>
+        <p>CyberShield is a cybersecurity alert platform dedicated to keeping individuals and businesses safe from online threats. Our team of security analysts monitors the latest cyber risks and provides real-time updates.</p>
+        
+        <h4>🎯 Our Mission:</h4>
+        <p>
+            ✅ Provide timely and accurate cybersecurity alerts. <br>
+            ✅ Educate users on best security practices. <br>
+            ✅ Help prevent data breaches, malware infections, and online scams.
+        </p>
+        
+        <h4>🌍 Our Vision:</h4>
+        <p>A world where everyone can browse safely without fear of cyber threats.</p>
+    </section>
+
+    <!-- Cybersecurity Alerts Section -->
+    <section id="alerts" class="alerts">
+        <h2>🚨 Latest Cybersecurity Alerts</h2>
+        
+        <div class="alert high">
+            <h3>🟣 [High Alert] Ransomware Attack Spreading</h3>
+            <p><strong>Date:</strong> 2025-01-30</p>
+            <p>A new **BlackSnake ransomware** attack is encrypting files and demanding Bitcoin payments.</p>
+            <p><strong>Action:</strong> Do not open suspicious emails and back up your data immediately.</p>
+        </div>
+
+        <div class="alert medium">
+            <h3>🟠 [Medium Alert] Phishing Emails Targeting PayPal Users</h3>
+            <p><strong>Date:</strong> 2025-01-28</p>
+            <p>Fake PayPal emails are being sent to users, tricking them into entering login credentials.</p>
+            <p><strong>Action:</strong> Always verify emails before clicking on links.</p>
+        </div>
+
+        <div class="alert low">
+            <h3>🟢 [Low Alert] Microsoft Releases Security Patch</h3>
+            <p><strong>Date:</strong> 2025-01-26</p>
+            <p>Microsoft has released its monthly security updates, fixing minor vulnerabilities.</p>
+            <p><strong>Action:</strong> Update your Windows system to stay protected.</p>
+        </div>
+    </section>
+
+    <!-- Cybersecurity Tips Section -->
+    <section id="tips" class="tips">
+        <h2>🔐 Cybersecurity Tips & Best Practices</h2>
+        <ul>
+            <li>✅ <strong>Use Strong Passwords:</strong> A mix of uppercase, lowercase, numbers, and symbols (e.g., `P@ssw0rd!2025`).</li>
+            <li>✅ <strong>Enable Two-Factor Authentication (2FA):</strong> Adds an extra layer of security to your accounts.</li>
+            <li>✅ <strong>Beware of Phishing Emails:</strong> Don’t click suspicious links or download unknown attachments.</li>
+            <li>✅ <strong>Update Your Software Regularly:</strong> Security patches fix vulnerabilities.</li>
+            <li>✅ <strong>Use a VPN on Public Wi-Fi:</strong> Prevent hackers from intercepting your data.</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <div id="contact-us">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+      
+          <button type="submit">Send</button>
+        </form>
+        <p id="response-message" style="color: green; display: none;">Message sent successfully!</p>
+      </div>
+
+      <footer>
+        <p>&copy; 2025 CyberAware: Stay Safe Online. All rights reserved.</p>
+      </footer>
+  
+      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+      <script src="contact.js"></script>
+
+</body>
+</html>
